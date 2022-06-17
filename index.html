@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding: 0 ;
+            font-size: 16px ;
+            font-weight: normal;
+        }
+        h1{
+            font-size: 20px ;
+            font-weight: bold ;
+        }
+        .container{
+            background-color: rgba(255, 113, 67, 0.27) ;
+            max-width: 1070px ;
+            margin: 0 auto ;
+        }
+        .btn1{
+            padding: 20px 30px ;
+            margin-right: 30px ;
+        }    
+         .header, .footer{
+            background: rgba(255, 113, 67, 0.27);
+            padding: 38px 0 48px;
+        } 
+        .nav__li{
+            display: inline-block;
+        }
+        .nav__li:not(:first-of-type){
+            margin-left: 49px;
+        }
+        .nav__link{
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: -0.468947px;
+            color: #696871;
+            text-decoration: none ;
+        }
+        .nav__link:hover{
+            color: black;
+            transition: 300ms;
+        }
+        .button{
+            width: 212px;
+            height: 60px;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.531474;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button__oramge{
+            background: #ff7143;
+        }
+        .button__oramge:hover{
+            background: #e66034;
+            transition: 500ms;
+        }
+        .about__title{
+            font-weight: bold;
+            font-size: 80px;
+            line-height: 77px;
+            letter-spacing: -2.50105;
+            color: #191918;
+            max-width: 467px;
+            margin-bottom: 30px; 
+        }
+        .about__text{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.625263;
+            color: #696871;
+            max-width: 410px;
+            margin-bottom: 50px;
+        }
+        .button__violet{
+            background: #5454d4;
+        }
+        .button__transparent{
+            background: none ;
+            color: #5454d4;
+            border: lpx solid #5454d4;
+            margin-left: 35px;
+        }
+        .footer{
+            padding: 53px 0;
+        }
+    </style>
+    <link class="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header" style="background-color: rgba(255, 113, 67, 0.27);">
+        <div class="container">
+            <div>
+              <div>
+            <a href="#">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+              </div>
+              <nav class="nav">
+            <ol>
+               <li class="nav__li">
+                   <a class="nav__link" href="#">
+                       Home
+                   </a>
+               </li>
+               <li class="nav__li">
+                   <a class="nav__link" href="#">
+                       Features
+                   </a>
+               </li>
+               <li class="nav__li">
+                   <a class="nav__link" href="#">
+                       Pricing
+                   </a>
+               </li>
+               <li class="nav__li">
+                   <a class="nav__li" href="#">
+                       Blog
+                   </a>
+               </li>
+            </ol>
+              </nav>
+            </div>  
+        <div>
+            <button class="button button__orange">
+                Get Started 
+            </button>
+        </div>
+    </header>
+    <section class="container about">
+        <div>
+           <h1 class="about__title">
+               Поздравляю з днем рождения
+           </h1>
+           <p class="about__text">
+            Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+           </p>
+           <div>
+               <button class="button button__violet">  Get Started</button>
+               <button class="button button__transparent">  Try</button>
+           </div>
+        </div>
+        <div>
+            <img src="./img/firstmen.png" alt="firstmen">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="contalner">
+           <div>
+            <a href="#">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+           </div>
+           <nav class="nav">
+            <ul>
+                <li class="nav__li"><a class="nav__link" href="#">Blog</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Blog</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Blog</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Blog</a></li>
+            </ul>
+           </nav>
+        </div>
+    </footer>
+    <p>
+        <span>Lorem, ipsum dolor </span> sit amet consectetur adipisicing elit. Expedita, quasi!</p>
+    <h1>
+        Lorem, ipsum dolor.
+    </h1>
+    <h5>
+        Lorem ipsum dolor sit amet consectetur.
+    </h5>
+    <a href="https://google.com">Link</a>
+    <hr>
+    <button>
+        Send
+    </button>
+    <div>
+        <img src="https://klike.net/uploads/posts/2019-06/1560329641_2.jpg" alt="image">
+    </div>
+</body>
+</html>
